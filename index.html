@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color picker</title>
+</head>
+<body>
+    <form>
+        <small>If translating RGB to hexadecimal, separate values with a comma</small>
+        <select id="translationModality">
+            <option value="1">Hex to RGB</option>
+            <option value="2">RGB to hex</option>
+        </select>
+        <input type="text" id="hexToRgb">
+        <button type="submit">translate</button>
+    </form>
+    <span>Result is: <span id="result"></span></span>
+    <script type="module" src="main.js"></script>
+</body>
+</html>

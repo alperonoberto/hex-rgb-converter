@@ -1,0 +1,7 @@
+body, form {
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
